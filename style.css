@@ -70,6 +70,16 @@ body {
 
 a {
   text-decoration: none;
+  color: #24a1de;
+  bottom: 0;
+  right: 20px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+b {
+  text-decoration: none;
   color: white;
   bottom: 0;
   right: 20px;
@@ -78,6 +88,24 @@ a {
   font-size: 18px;
 }
 
+c {
+  text-decoration: none;
+  color: #79d298;
+  bottom: 0;
+  right: 20px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
 a:hover {
+  color: #ff0000;
+}
+b:hover {
+  color: #ff0000;
+}
+c:hover {
   color: #ff0000;
 }
