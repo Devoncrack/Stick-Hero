@@ -35,6 +35,18 @@ body {
   transition: opacity 2s;
 }
 
+#links-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: fixed;  /* Position the container */
+  bottom: 20px;    /* Place it 20px from the bottom */
+  left: 50%;       /* Center horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  width: 100%;     /* Make it take full width (optional) */
+}
+
+
 #restart {
   width: 100px;
   height: 100px;
@@ -54,4 +66,18 @@ body {
   position: absolute;
   opacity: 0;
   transition: opacity 2s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  bottom: 0;
+  right: 20px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  color: white;
 }
